@@ -57,7 +57,7 @@ defmodule Day04Test do
       assert Day04.get_more_specific_possible_password_count(123_334..123_460) == 27
     end
 
-    test "find answer" do
+    test "finds answer" do
       answer =
         Day04.get_more_specific_possible_password_count(138_307..654_504)
         |> IO.inspect(label: "PART 2 ANSWER")
